@@ -4,7 +4,7 @@ public class Main
     {
         int a = 5;
         System.out.println("a = " + a);
-        double b = 5.123;
+        double b = 5.585;
         System.out.printf("b = %.2f\n", b);
         MainClass.calculator(8, '3', 0);
     }
