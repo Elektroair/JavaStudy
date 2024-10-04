@@ -18,6 +18,11 @@ public class Book
 		this.isbn = isbn;
 	}
 
+	@Override
+	public String toString()
+	{
+		return "Author: " + author + "\nTitle: " + title + "\nPages: " + pages + "\nISBN: " + isbn;
+	}
 
 	public String getAuthor()
 	{
