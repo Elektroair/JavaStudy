@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Lesson_27C1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lesson_27C1_jar</output-path>
+    <root id="root">
+      <element id="archive" name="CopyFile.jar">
+        <element id="module-output" name="Lesson_27C1" />
+      </element>
+    </root>
+  </artifact>
+</component>
