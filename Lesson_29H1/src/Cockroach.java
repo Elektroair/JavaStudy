@@ -38,10 +38,13 @@ public class Cockroach implements Runnable
 			}
 		}
 
-		if (!isAnyoneWinner)
+		synchronized (Cockroach.class)
 		{
-			isAnyoneWinner = true;
-			winner         = cockroachNumber + 1;
+			if (!isAnyoneWinner)
+			{
+				isAnyoneWinner = true;
+				winner         = cockroachNumber + 1;
+			}
 		}
 	}
 }
